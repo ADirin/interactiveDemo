@@ -13,9 +13,12 @@ public class App
         return name;
     }
 
+    public static int yourAge(int age) {
+        return  age;
+    }
 
         public static void main(String[] args){
-            System.out.println(" Are you "+yourName("AMir"));
+            System.out.println(" Are you "+yourName("AMir") + " "+ yourAge(25));
 
             scanner.close();
     }

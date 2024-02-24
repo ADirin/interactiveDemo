@@ -45,4 +45,8 @@ public class AppTest
         assertEquals(app.yourName("Nia"), "Nia");
 
     }
+    @Test
+    public void yourAgeTest(){
+        assertEquals(app.yourAge(25), 25);
+    }
 }
